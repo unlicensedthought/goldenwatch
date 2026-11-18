@@ -1,0 +1,11 @@
+export { datasetFrom, hashCases, parseJsonl } from './dataset.ts';
+export type { Dataset, GoldenCase } from './dataset.ts';
+export { regressionGate } from './gate.ts';
+export type { Baseline, GateOptions, GateResult, GateVerdict } from './gate.ts';
+export { casesNeeded, detectionPower } from './power.ts';
+export { renderReport, worstCases } from './report.ts';
+export type { Report, TrendRow } from './report.ts';
+export { runGolden, summarize } from './run.ts';
+export type { CallResult, CaseReport, GoldenRun, Grade, RunOptions, Summary, TagSummary } from './run.ts';
+export { runWatched } from './watch.ts';
+export type { Reporter, WatchOptions, WatchResult } from './watch.ts';
